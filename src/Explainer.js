@@ -16,15 +16,15 @@ class Splash extends Component {
 				<div className="flexy">
 					<div className="intro-icons">
 						<img className="icons" alt="pic" src={HouseIcon} />
-						<h3> House </h3>
+						<h3 class="legislature"> House </h3>
 					</div>
 					<div className="intro-icons">
 						<img className="icons" alt="pic" src={SenateIcon} />
-						<h3> Senate </h3>
+						<h3 class="legislature"> Senate </h3>
 					</div>
 					<div className="intro-icons">
 						<img className="icons" alt="pic" src={IneligibleIcon} />
-						<h3> Disenfranchisement </h3>
+						<h3 class="title"> Disenfranchisement </h3>
 					</div>
 				</div>
 			</div>

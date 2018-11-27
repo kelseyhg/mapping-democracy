@@ -32,6 +32,14 @@ h3 {
   text-align: left;
 }
 
+.title {
+  margin-right: 4vw;
+}
+
+.legislature {
+  margin-left: 3.5vw;
+}
+
 .App-link {
   color: #61dafb;
 }
