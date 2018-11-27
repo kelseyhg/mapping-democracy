@@ -2,6 +2,7 @@
   "name": "mapping-democracy",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kelseyhg.github.io/mapping-democracy/",
   "dependencies": {
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
@@ -22,4 +23,5 @@
     "not ie <= 11",
     "not op_mini all"
   ]
+
 }
