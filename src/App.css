@@ -1,5 +1,9 @@
+
+
 .App {
   text-align: center;
+  width: 90vw;
+  margin-left: 5vw; 
 }
 
 .App-logo {
@@ -18,6 +22,16 @@
   color: white;
 }
 
+h1 {
+  font-size: 76px;
+}
+
+h3 {
+  width: 70vw;
+  margin: 4vh auto;
+  text-align: left;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -30,3 +44,72 @@
     transform: rotate(360deg);
   }
 }
+
+#splash-map {
+  width: 80vw;
+
+}
+
+.section {
+  margin: 15vh 0;
+}
+
+.titles {
+  z-index: 3;
+  text-align: center;
+  width: 35vw;
+  margin: 0 20vw;
+  margin-top: 135px;
+  margin-bottom: -500px;
+}
+
+.flexy {
+  display: flex;
+
+}
+.icons {
+  width: 150px;
+}
+
+.intro-icons {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.pink {
+  padding: 400px;
+  stroke-dasharray: 5 10 30 10;
+  stroke-dashoffset: 5;
+}
+
+#mapid { height: 380px; }
+
+.prison-compare {
+  margin: 0 auto;
+}
+
+.pie {
+  width: 120px;
+  background: #d7d9dd;
+  border-radius: 50%;
+}
+
+.pie circle {
+  fill: none;
+  stroke: DeepPink;
+  stroke-width: 32;
+  animation: rotate 1.5s ease-in;
+}
+
+#check {
+  stroke-dasharray: 300;
+  animation: dash 2s linear infinite;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 600;
+  }
+}
+
+
