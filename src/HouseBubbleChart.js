@@ -5,21 +5,23 @@ import './App.css';
 
 class HouseBubbleChart extends React.Component {
 
+ constructor(props) {
+    super(props);
+    this.state = {
+      value: this.props.value
+    };
+  }
+  componentDidMount() {
+
+  }
   
   render() {
 
 
 		return(
 			<div className="section">
-			<h1>The House </h1>
-			<h2> Where is your vote worth more? </h2>
-			<h3>Even in the House, where representation reflects state population, representation is unequal because of the limits of a 435-representative chamber. </h3>
-			<h3> Very small states are still over-represented, while states that are just below the population threshhold for an additional representative are under-represented. </h3>
-
-  
-			<div className="slidecontainer">
-  			<input type="range" min="435" max="1000" value="435" class="slider" id="myRange" />
-			</div>
+			
+  			<h2> Value: {this.props.value}</h2>
 				
 				<br /> <br />
 				<svg width="350" height="500"> 
