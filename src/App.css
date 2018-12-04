@@ -90,7 +90,36 @@ h3 {
   stroke-dashoffset: 5;
 }
 
-#mapid { height: 380px; }
+.slider {
+    -webkit-appearance: none;
+    width: 60%;
+    height: 15px;
+    border-radius: 5px;   
+    background: #d7d9dd;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: DeepSkyBlue;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: DeepSkyBlue;
+    cursor: pointer;
+}
+
 
 .prison-compare {
   margin: 0 auto;
