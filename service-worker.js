@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mapping-democracy/precache-manifest.c290d4754ff2703925532bc93df02726.js"
+  "/mapping-democracy/precache-manifest.48b11ea57816ccb0c428caa51adc3cd7.js"
 );
 
 workbox.clientsClaim();

@@ -24,19 +24,19 @@ self.__precacheManifest = [
     "url": "/mapping-democracy/static/js/runtime~main.95ea6506.js"
   },
   {
-    "revision": "099197de6a93671f5b07",
-    "url": "/mapping-democracy/static/js/main.099197de.chunk.js"
+    "revision": "f77bd10816f01fe4e497",
+    "url": "/mapping-democracy/static/js/main.f77bd108.chunk.js"
   },
   {
-    "revision": "16ffa488330a054c9748",
-    "url": "/mapping-democracy/static/js/1.16ffa488.chunk.js"
+    "revision": "7c7248cb4bf655299575",
+    "url": "/mapping-democracy/static/js/1.7c7248cb.chunk.js"
   },
   {
-    "revision": "099197de6a93671f5b07",
-    "url": "/mapping-democracy/static/css/main.c55b8c01.chunk.css"
+    "revision": "f77bd10816f01fe4e497",
+    "url": "/mapping-democracy/static/css/main.a23c742a.chunk.css"
   },
   {
-    "revision": "66c29b3c0f3a8875bc15dbba1035d38d",
+    "revision": "e2a1a5a5b58fcee9284958740bfcc0e3",
     "url": "/mapping-democracy/index.html"
   }
 ];
